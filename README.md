@@ -24,9 +24,10 @@ See [Render's IaC documentation](https://render.com/docs/infrastructure-as-code)
 To deploy this app, follow the directions to connect your `render.yaml` to your render account:
 
 1. Fork this repository
-2. Open the render dasbhoard, Click Blueprints in the navigation sidebar.
-3. Click the New Blueprint Instance button.
-4. Select your forked repository
+2. Optionally update the `name` of your service in the `render.yaml` file
+3. Open the render dasbhoard, Click Blueprints in the navigation sidebar.
+4. Click the New Blueprint Instance button.
+5. Select your forked repository
 
 Once selected, you’ll see a list of the changes that will be applied based on the contents of render.yaml. If there’s an issue with the file you’ll see an error message. If everything looks good, click Apply to create the resources defined in your file.
 
